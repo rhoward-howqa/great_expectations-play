@@ -1,0 +1,23 @@
+{
+  "data_asset_type": "Dataset",
+  "expectation_suite_name": "users.warning",
+  "expectations": [
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "UserName"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "DoB"
+      },
+      "meta": {}
+    }
+  ],
+  "meta": {
+    "great_expectations.__version__": "0.10.11"
+  }
+}
